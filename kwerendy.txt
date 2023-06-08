@@ -1,0 +1,7 @@
+SELECT nazwa, cena FROM towary LIMIT 4;
+
+SELECT cena FROM towary WHERE nazwa='cyrkiel';
+
+SELECT nazwa FROM towary;
+
+SELECT promocja, COUNT(id) AS ilosc FROM towary GROUP BY promocja;
